@@ -26,5 +26,15 @@ namespace ChessGame
         {
             this.InitializeComponent();
         }
+
+        private void HamburgerButton_Click(object sender, RoutedEventArgs e)
+        {
+            MySplitView.IsPaneOpen = !MySplitView.IsPaneOpen;
+        }
+
+        private void MenuButton3_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Text = "botao 3";
+        }
     }
 }
