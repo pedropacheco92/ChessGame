@@ -26,7 +26,7 @@
                 <StackPanel Orientation="Horizontal">
                     <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE1D6;"
                         Width="50" Height="50" Background="Transparent" Click="MenuButton3_Click"/>
-                    <TextBlock Text="Button 3" FontSize="18" VerticalAlignment="Center" />
+                    <TextBlock x:Name="btn_3" Text="Button 3" FontSize="18" VerticalAlignment="Center" SelectionChanged="btn_3_SelectionChanged" />
                 </StackPanel>
             </StackPanel>
         </SplitView.Pane>

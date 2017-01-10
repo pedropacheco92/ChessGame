@@ -36,5 +36,10 @@ namespace ChessGame
         {
             textBlock.Text = "botao 3";
         }
+
+        private void btn_3_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            textBlock.Text = "botao 3";
+        }
     }
 }
